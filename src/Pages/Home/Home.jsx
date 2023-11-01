@@ -1,8 +1,11 @@
+import Navbar from "../Navbar/Navbar";
+import Products from "../Products/Products";
 
 const Home = () => {
     return (
-        <div>
-            <h1 className="text-red-600 text-2xl">hello</h1>
+        <div className="bg-[rgb(226,232,240)]">
+            <Navbar></Navbar>
+            <Products></Products>
         </div>
     );
 };
